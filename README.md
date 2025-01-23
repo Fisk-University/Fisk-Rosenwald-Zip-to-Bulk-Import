@@ -24,6 +24,7 @@ Before using this plugin ensure:
    - Add the zip to the Omeka-S modules folder and unzip it.
    - Rename the unzipped folder to "ZipImporter" if it's not already named as such.
    - Open a terminal, navigate to the "ZipImporter" folder, and run `composer install`.
+      - Sudo or appropriate permissions may be necessary
 
 3. **Update php.ini:**
    - Find your php.ini file with the `php -r "phpinfo();" | grep php.ini` command, or with an info.php page using `<?php phpinfo(); ?>` 

@@ -26,7 +26,7 @@ Before using this plugin ensure:
    - Open a terminal, navigate to the "ZipImporter" folder, and run `composer install`.
 
 3. **Update php.ini:**
-   - Find your php.ini file with `php -r "phpinfo();" | grep php.ini`.
+   - Find your php.ini file with the `php -r "phpinfo();" | grep php.ini` command, or with an info.php page using `<?php phpinfo(); ?>` 
    - Adjust the following fields:
      ```
      upload_max_filesize = 1000M
@@ -34,6 +34,7 @@ Before using this plugin ensure:
      post_max_size = 1000M
      ```
    - Restart your server with `service apache2 restart` or the relevant command.
+   - Restart php with `systemctl restart php` or the relevant command.
 
 4. **Check PHP Limits:**
    - In the Omeka-S Dashboard, click "System Information" in the lower right to ensure PHP limits are updated.
@@ -46,7 +47,7 @@ Before using this plugin ensure:
 
 2. **Upload your zip file.**
    - Click on "Zip Import" and upload your zip file containing images and CSV
-      - [Sample of zip](https://github.com/LATAEVIA/Fisk-Rosenwald-Zip-to-Bulk-Import/blob/main/GitHub%20Sample%20Upload%20Structure.zip)
+      - [Sample of zip](https://github.com/Fisk-University/Fisk-Rosenwald-Zip-to-Bulk-Import/blob/main/GitHub%20Sample%20Upload%20Structure.zip)
       - Note: CSV must be UTF-8 encoded when saved
    - Recommended: Tick the "Automap with simple labels" box.
 
@@ -69,11 +70,11 @@ Thank you for considering contributing to the Fisk-Rosenwald-Zip-to-Bulk-Import!
 
 ### Reporting Issues
 
-Before May 2025:
-If you encounter any issues, have questions, or want to suggest enhancements, please open an issue on the [GitHub Issues page](https://github.com/LATAEVIA/Fisk-Rosenwald-Zip-to-Bulk-Import/issues). Provide detailed information about the problem, including steps to reproduce it.
+Before May 2026:
+If you encounter any issues, have questions, or want to suggest enhancements, please open an issue on the [GitHub Issues page](https://github.com/Fisk-University/Fisk-Rosenwald-Zip-to-Bulk-Import/issues). Provide detailed information about the problem, including steps to reproduce it.
 
-**After May 2025:**
-If you encounter any issues, have questions, or want to suggest enhancements, unfortunatly this project will be closed and no further edits will be made on our end. We encourage you to take the reins with a clone or fork of your own.
+**After May 2026:**
+If you encounter any issues, have questions, or want to suggest enhancements, unfortunately this project will be closed and no further edits will be made on our end. We encourage you to take the reins with a clone or fork of your own.
 
 
 ### Feature Requests
@@ -88,11 +89,11 @@ We GREATLY welcome pull requests that address issues or bring new features to th
 2. Create a new branch for your changes.
 3. Make your changes and commit them with clear messages.
 4. Push your branch to your fork.
-5. Open a pull request on the [GitHub Pull Requests page](https://github.com/LATAEVIA/Fisk-Rosenwald-Zip-to-Bulk-Import/pulls).
+5. Open a pull request on the [GitHub Pull Requests page](https://github.com/Fisk-University/Fisk-Rosenwald-Zip-to-Bulk-Import/pulls).
 
 ### Coding patterns
 
-We have yet to set any standards/patterns, so just keep it clean and consistant. If your pull request is related to an existing issue, reference the issue number in your pull request description.
+We have yet to set any standards/patterns, so just keep it clean and consistent. If your pull request is related to an existing issue, reference the issue number in your pull request description.
 
 ### Code of Conduct
 
@@ -103,3 +104,7 @@ Thank you for contributing!
 ## License
 
 This project is licensed under the [GNU General Public License version 3.0 (GPL-3.0)](https://opensource.org/licenses/GPL-3.0). See the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+Built with ❤️ by Archatomic, LaTaevia Berry and Fisk University

@@ -65,47 +65,12 @@ Before using this plugin ensure:
 6. **OPTIONAL: Download the updated CSV**
    - Go to MODULES > CSV Import > Past Imports to locate the CSV file updated with storage locations.
 
-## Contributing to Fisk-Rosenwald-Zip-to-Bulk-Import
-
-Thank you for considering contributing to the Fisk-Rosenwald-Zip-to-Bulk-Import! Contributions help improve and grow the functionality of the plugin.
-
-### Reporting Issues
-
-Before May 2026:
-If you encounter any issues, have questions, or want to suggest enhancements, please open an issue on the [GitHub Issues page](https://github.com/Fisk-University/Fisk-Rosenwald-Zip-to-Bulk-Import/issues). Provide detailed information about the problem, including steps to reproduce it.
-
-**After May 2026:**
-If you encounter any issues, have questions, or want to suggest enhancements, unfortunately this project will be closed and no further edits will be made on our end. We encourage you to take the reins with a clone or fork of your own.
-
-
-### Feature Requests
-
-Feel free to open an issue if you have a feature request. Describe the new functionality you're proposing and how it would benefit users.
-
-### Pull Requests
-
-We GREATLY welcome pull requests that address issues or bring new features to the Fisk-Rosenwald-Zip-to-Bulk-Import. To submit a pull request:
-
-1. Fork the repository to your GitHub account.
-2. Create a new branch for your changes.
-3. Make your changes and commit them with clear messages.
-4. Push your branch to your fork.
-5. Open a pull request on the [GitHub Pull Requests page](https://github.com/Fisk-University/Fisk-Rosenwald-Zip-to-Bulk-Import/pulls).
-
-### Coding patterns
-
-We have yet to set any standards/patterns, so just keep it clean and consistent. If your pull request is related to an existing issue, reference the issue number in your pull request description.
-
-### Code of Conduct
-
-Kindness, respect, love. 
-
-Thank you for contributing!
+---
 
 ## License
 
-This project is licensed under the [GNU General Public License version 3.0 (GPL-3.0)](https://opensource.org/licenses/GPL-3.0). See the [LICENSE.md](LICENSE.md) file for details.
+This module is published under the [Server Side Public License (SSPL-1.0)](https://www.mongodb.com/legal/licensing/server-side-public-license).\
 
 ---
 
-Built with ❤️ by Archatomic, LaTaevia Berry and Fisk University
+Built with ❤️ by Archatomic & LaTaevia Berry for Fisk University and HBCUs nationwide

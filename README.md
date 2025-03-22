@@ -69,7 +69,7 @@ Before using this plugin ensure:
 
 ## License
 
-This module is published under the [Server Side Public License (SSPL-1.0)](https://www.mongodb.com/legal/licensing/server-side-public-license).\
+This module is published under the [Server Side Public License (SSPL-1.0)](https://www.mongodb.com/legal/licensing/server-side-public-license).
 
 ---
 

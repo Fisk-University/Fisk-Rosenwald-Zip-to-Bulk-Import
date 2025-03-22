@@ -121,14 +121,14 @@ class IndexController extends CSVImport\Controller\IndexController
         if (!$source->isValid()) {
             $message = $source->getErrorMessage() ?: 'The file is not valid.'; // @translate
             $this->messenger()->addError($message);
-            return $this->redirect()->toRoute('admin/csvimport');
+            return $this->redirect()->toRoute('admin/zip-importer');
         }
 
         $columns = $source->getHeaders();
         if (empty($columns)) {
             $message = $source->getErrorMessage() ?: 'The file has no headers.'; // @translate
             $this->messenger()->addError($message);
-            return $this->redirect()->toRoute('admin/csvimport');
+            return $this->redirect()->toRoute('admin/zip-importer');
         }
 
         $mappingOptions['columns'] = $columns;
